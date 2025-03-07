@@ -4,7 +4,7 @@ import os
 import PIL.Image
 
 # Set API Key for Google Gemini
-os.environ["GOOGLE_API_KEY"] = "AIzaSyBzn2Z420Ex2U6MvuTOs8Zh5_H_-jGVxOY"
+os.environ["GOOGLE_API_KEY"] = ""
 genai.configure(api_key=os.environ["GOOGLE_API_KEY"])
 
 # Load the Gemini Model
